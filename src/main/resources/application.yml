@@ -1,0 +1,17 @@
+server:
+  port: 8765
+spring:
+  application:
+    name: eurka-server
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://localhost:8765/eureka/
+  server:
+    enable-self-preservation: false
+    eviction-interval-timer-in-ms: 5000
+  instance:
+    prefer-ip-address: true
+  
