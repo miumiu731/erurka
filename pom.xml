@@ -8,9 +8,9 @@
 		<version>2.1.0.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>eureka.example</groupId>
-	<artifactId>eureka</artifactId>
-	<version>1.0.0</version>
+	<groupId>eureka.hperson</groupId>
+	<artifactId>hperson-eureka</artifactId>
+	<version>1.0.1</version>
 	<packaging>jar</packaging>
 	<name>demo</name>
 	<description>Demo project for Spring Boot</description>
